@@ -1,11 +1,12 @@
 # Tentang Saya
 
-| **Mata Kuliah**  | Mobile Programming II                 |
+| **#**            | **Keterangan**                  |
 |------------------|---------------------------------------|
 | **Nama**         | **Muhammad Mas Adji Firmansyah**      |
 | **NIM**          | **230444040013**                      |
 | **Prodi**        | **Manajemen Informatika**             |
-| **Dosen**        | **Taufik Ardiyan, S.Kom**             |
+| **Mata Kuliah**  | **Mobile Programming**             |
+| **Dosen**        | **Taufik Ardiyan S.Kom**             |
 
 ---
 
