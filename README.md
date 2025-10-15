@@ -1,3 +1,13 @@
+# Tentang Saya
+**Nama**          : Muhammad Mas Adji Firmansyah<br>
+**NIM**           : 230444040013<br>
+**Prodi**         : Manajemen Informatika<br>
+**Mata Kuliah**   : Mobile Programming II<br>
+**Dosen**         : Taufik Ardiyan S.Kom
+
+---
+
+
 # 📱 UAS Project React Native Expo — "uas-project-masadji"
 
 Aplikasi ini merupakan **tugas Ujian Akhir Semester (UAS)** mata kuliah *Pemrograman Mobile* yang dikembangkan menggunakan **React Native (Expo + Expo Router)**. Proyek ini dibuat dengan konsep **navigasi multipage**, **autentikasi sederhana**, dan **pengelolaan data dummy (mock-data)** untuk menampilkan informasi *User* dan *Product*.
@@ -58,7 +68,7 @@ Berikut adalah alur atau *user flow* dari aplikasi ini:
 
 2. **Home Page**<br>
 ![Home Page](assets/images/Home%20Pages.png)<br>
-
+z
 3. **User List Page**<br>
 ![User List Page](assets/images/List%20User.png)<br>
 
