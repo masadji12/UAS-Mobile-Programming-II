@@ -59,7 +59,6 @@ Berikut adalah alur atau *user flow* dari aplikasi ini:
 6. **Logout**
    - Logout bisa dilakukan dari halaman Home.
    - Setelah logout, pengguna diarahkan kembali ke halaman Login.
-   - Setiap halaman dilindungi oleh `Redirect`, sehingga user tidak bisa mengakses halaman lain tanpa login.
 
 ---
 
