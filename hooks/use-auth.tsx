@@ -1,6 +1,7 @@
 import { createContext, useContext, useMemo, useState } from 'react';
 import { users } from '@/data/mock-data';
 import type { User } from '@/types';
+import { router } from 'expo-router';
 
 type AuthContextValue = {
   user: User | null;
@@ -20,8 +21,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     return { ok: true };
   };
 
-  const logout = () => setUser(null);
-
+  const logout = () => {
+    setUser(null);
+    router.replace('/login');
+  }
   const value = useMemo(() => ({ user, login, logout }), [user]);
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

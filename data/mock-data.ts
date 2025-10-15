@@ -1,7 +1,7 @@
 import type { Product, User } from "@/types";   
 
 export const users: User[] = [
-    { id: '1', name: 'Budi Santoso', email: 'budi@example.com', password: '123456', createdAt: '2024-10-01' },
+  { id: '1', name: 'Budi Santoso', email: 'budi@example.com', password: '123456', createdAt: '2024-10-01' },
   { id: '2', name: 'Siti Aminah',  email: 'siti@example.com', password: 'abcdef', createdAt: '2024-11-15' },
   { id: '3', name: 'Andi Wijaya',  email: 'andi@example.com', password: '654321', createdAt: '2025-01-10' },
 ];
