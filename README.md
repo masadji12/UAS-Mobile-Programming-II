@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 📱 UAS Project React Native Expo — "uas-project-masadji"
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi ini merupakan **tugas Ujian Akhir Semester (UAS)** mata kuliah *Pemrograman Mobile* yang dikembangkan menggunakan **React Native (Expo + Expo Router)**. Proyek ini dibuat dengan konsep **navigasi multipage**, **autentikasi sederhana**, dan **pengelolaan data dummy (mock-data)** untuk menampilkan informasi *User* dan *Product*.
 
-## Get started
+---
 
-1. Install dependencies
+## 🧩 Tujuan Aplikasi
 
-   ```bash
-   npm install
-   ```
+Aplikasi ini bertujuan untuk:
+- Menunjukkan kemampuan mahasiswa dalam membangun aplikasi React Native menggunakan **Expo Router**.
+- Memahami konsep **navigasi**, **autentikasi**, dan **state management sederhana**.
+- Mengimplementasikan struktur proyek yang rapi dan modular.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Flow Aplikasi
 
-In the output, you'll find options to open the app in a
+Berikut adalah alur atau *user flow* dari aplikasi ini:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. **Login Page**
+   - Pengguna diminta untuk login menggunakan *email* dan *password*.
+   - Validasi dilakukan menggunakan data dari `mock-data.ts`.
+   - Password yang digunakan untuk semua akun mock adalah `password`.
+      | No | Email                   | Password |
+      |----|-------------------------|----------|
+      | 1  | muhammad@example.com    | 123456   |
+      | 2  | mas@example.com         | abcdef   |
+      | 3  | adji@example.com        | 654321   |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. **Home Page**
+   - Setelah login berhasil, pengguna akan diarahkan ke halaman **Home**.
+   - Terdapat 3 tombol utama:
+     - **User List** → menuju daftar user.
+     - **Product List** → menuju daftar produk.
+     - **Logout** → keluar dari aplikasi dan kembali ke halaman login.
 
-## Get a fresh project
+3. **User List Page**
+   - Menampilkan daftar user dari data mock.
+   - Saat salah satu user ditekan, aplikasi berpindah ke halaman **User Detail**.
 
-When you're ready, run:
+4. **User Detail Page**
+   - Menampilkan detail informasi user (nama, email, tanggal dibuat).
 
-```bash
-npm run reset-project
-```
+5. **Product List Page**
+   - Menampilkan daftar produk lengkap dengan deskripsi, harga, dan stok.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+6. **Logout**
+   - Logout bisa dilakukan dari halaman Home.
+   - Setelah logout, pengguna diarahkan kembali ke halaman Login.
+   - Setiap halaman dilindungi oleh `Redirect`, sehingga user tidak bisa mengakses halaman lain tanpa login.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📱 Tampilan Aplikasi
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. **Login Page**<br>
+![Login Page](../uas-project-masadji/assets/images/Login%20pages.png)<br>
 
-## Join the community
+2. **Home Page**<br>
+![Home Page](../uas-project-masadji/assets/images/Home%20Pages.png)<br>
 
-Join our community of developers creating universal apps.
+3. **User List Page**<br>
+![User List Page](../uas-project-masadji/assets/images/List%20User.png)<br>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. **User Detail Page**<br>
+![User Detail Page](../uas-project-masadji/assets/images/Detail%20User.png) <br>
+
+5. **Product List Page**<br>
+![Product List Page](../uas-project-masadji/assets/images/List%20Product.png)<br>
