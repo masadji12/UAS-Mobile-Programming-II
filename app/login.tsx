@@ -7,7 +7,7 @@ import { SPACING } from '@/constants/spacing';
 import { useAuth } from '@/hooks/use-auth';
 
 export default function LoginScreen() {
-  const [email, setEmail] = useState('budi@example.com');
+  const [email, setEmail] = useState('muhammad@example.com');
   const [password, setPassword] = useState('123456');
   const { login } = useAuth();
 
