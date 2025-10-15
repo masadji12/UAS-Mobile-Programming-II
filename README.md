@@ -54,16 +54,16 @@ Berikut adalah alur atau *user flow* dari aplikasi ini:
 ## 📱 Tampilan Aplikasi
 
 1. **Login Page**<br>
-![Login Page](../uas-project-masadji/assets/images/Login%20pages.png)<br>
+![Login Page](assets/images/Login%20pages.png)<br>
 
 2. **Home Page**<br>
-![Home Page](../uas-project-masadji/assets/images/Home%20Pages.png)<br>
+![Home Page](assets/images/Home%20Pages.png)<br>
 
 3. **User List Page**<br>
-![User List Page](../uas-project-masadji/assets/images/List%20User.png)<br>
+![User List Page](assets/images/List%20User.png)<br>
 
 4. **User Detail Page**<br>
-![User Detail Page](../uas-project-masadji/assets/images/Detail%20User.png) <br>
+![User Detail Page](assets/images/Detail%20User.png) <br>
 
 5. **Product List Page**<br>
-![Product List Page](../uas-project-masadji/assets/images/List%20Product.png)<br>
+![Product List Page](assets/images/List%20Product.png)<br>
