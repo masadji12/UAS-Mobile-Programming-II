@@ -1,9 +1,11 @@
 # Tentang Saya
-**Nama**          : Muhammad Mas Adji Firmansyah<br>
-**NIM**           : 230444040013<br>
-**Prodi**         : Manajemen Informatika<br>
-**Mata Kuliah**   : Mobile Programming II<br>
-**Dosen**         : Taufik Ardiyan S.Kom
+
+| **Mata Kuliah**  | Mobile Programming II                 |
+|------------------|---------------------------------------|
+| **Nama**         | **Muhammad Mas Adji Firmansyah**      |
+| **NIM**          | **230444040013**                      |
+| **Prodi**        | **Manajemen Informatika**             |
+| **Dosen**        | **Taufik Ardiyan, S.Kom**             |
 
 ---
 
@@ -30,7 +32,7 @@ Berikut adalah alur atau *user flow* dari aplikasi ini:
 1. **Login Page**
    - Pengguna diminta untuk login menggunakan *email* dan *password*.
    - Validasi dilakukan menggunakan data dari `mock-data.ts`.
-   - Password yang digunakan untuk semua akun mock adalah `password`.
+   - Password yang digunakan untuk semua akun mock adalah `email` dan `password`.
       | No | Email                   | Password |
       |----|-------------------------|----------|
       | 1  | muhammad@example.com    | 123456   |
