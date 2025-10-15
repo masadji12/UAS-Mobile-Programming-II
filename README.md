@@ -20,7 +20,7 @@ Berikut adalah alur atau *user flow* dari aplikasi ini:
 1. **Login Page**
    - Pengguna diminta untuk login menggunakan *email* dan *password*.
    - Validasi dilakukan menggunakan data dari `mock-data.ts`.
-   - Password yang digunakan untuk semua akun mock adalah `password`.
+   - Password yang digunakan untuk semua akun mock adalah `email` dan `password`.
       | No | Email                   | Password |
       |----|-------------------------|----------|
       | 1  | muhammad@example.com    | 123456   |
